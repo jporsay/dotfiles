@@ -1,7 +1,8 @@
 #!/bin/sh
 
+. ../common.sh
+
 mkdir ~/.vim
-DIR="$( cd "$( dirname "$0" )" && pwd )"
 # link main rc
 ln -s "$DIR/vimrc" ~/.vimrc
 # link sub-rcs
