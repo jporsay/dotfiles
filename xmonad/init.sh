@@ -1,5 +1,6 @@
 #!/bin/sh
 
 
-./installXmonadAndXmobar.sh
+./installXmonad.sh
+./installXmobar.sh
 
