@@ -2,7 +2,7 @@ set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 set expandtab
-color desert
+color distinguished
 set guifont=monospace\ 13
 set number
 set ignorecase
