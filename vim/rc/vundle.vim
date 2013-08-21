@@ -7,6 +7,7 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle "myusuf3/numbers.vim"
 Bundle "Lokaltog/powerline"
+Bundle "Lokaltog/vim-easymotion"
 Bundle "scrooloose/nerdtree"
 
 filetype plugin indent on
