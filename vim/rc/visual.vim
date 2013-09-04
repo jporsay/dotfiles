@@ -15,7 +15,7 @@ set listchars=tab:>·,trail:·    " but only show tabs and trailing whitespace
 set shortmess=atI               " shorten messages and don't show intro
 set showmatch                   " show matching brackets
 if has('gui_running')
-    set guifont=Inconsolata\ for\ Powerline:h13
+    set guifont=Source\ Code\ Pro\ for\ Powerline:h13
     set guioptions-=l
     set guioptions-=L
     set guioptions-=r
