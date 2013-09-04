@@ -12,6 +12,7 @@ let mapleader=","
 
 " Numbers plugin
 nnoremap <F3> :NumbersToggle<CR>
-nnoremap <F4> :NumbersOnOff<CR>
+nnoremap <F5> :NumbersOnOff<CR>
+nmap <F4> :NERDTreeToggle<CR>
 map <Leader>n :NERDTreeTabsToggle<CR>
 
