@@ -3,6 +3,9 @@
 . ../common.sh
 
 mkdir ~/.vim
+mkdir ~/.vim/temp
+mkdir ~/.vim/backup
+
 # link main rc
 ln -s "$DIR/vimrc" ~/.vimrc
 # link sub-rcs
