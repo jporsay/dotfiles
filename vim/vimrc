@@ -4,4 +4,5 @@ filetype off
 source ~/.vim/rc/vundle.vim " Vundle bundler
 source ~/.vim/rc/visual.vim " Visual settings
 source ~/.vim/rc/remaps.vim " Keyboard remaps
-source ~/.vim/rc/pluginconf.vim "Plugin config
+source ~/.vim/rc/pluginconf.vim " Plugin config
+source ~/.vim/rc/misc.vim " Misc configs
