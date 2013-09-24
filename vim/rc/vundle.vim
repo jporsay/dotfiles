@@ -16,10 +16,14 @@ Bundle "kien/ctrlp.vim"
 Bundle "bling/vim-airline"
 Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
+Bundle "majutsushi/tagbar"
 " Markup
 Bundle "nono/vim-handlebars"
+Bundle "scrooloose/syntastic"
 " Misc
 Bundle "Lokaltog/powerline"
+" Autocompletion"
+Bundle "Valloric/YouCompleteMe"
 
 " Vim-scripts repositories
 Bundle "OmniCppComplete"
