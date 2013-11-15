@@ -17,6 +17,7 @@ Bundle "bling/vim-airline"
 Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
 Bundle "majutsushi/tagbar"
+Bundle "scrooloose/nerdcommenter"
 " Markup
 Bundle "nono/vim-handlebars"
 Bundle "scrooloose/syntastic"
