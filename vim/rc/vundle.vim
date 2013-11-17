@@ -4,16 +4,16 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " github bundles
+Bundle "tpope/vim-fugitive"
+Bundle "airblade/vim-gitgutter"
 " tpope magic
 Bundle "tpope/vim-surround"
-Bundle "tpope/vim-fugitive"
 Bundle "tpope/vim-dispatch"
 " Workflow
 Bundle "gregsexton/gitv"
 Bundle "myusuf3/numbers.vim"
 Bundle "Lokaltog/vim-easymotion"
 Bundle "kien/ctrlp.vim"
-Bundle "bling/vim-airline"
 Bundle "scrooloose/nerdtree"
 Bundle "jistr/vim-nerdtree-tabs"
 Bundle "majutsushi/tagbar"
@@ -21,10 +21,14 @@ Bundle "majutsushi/tagbar"
 Bundle "nono/vim-handlebars"
 Bundle "scrooloose/syntastic"
 " Misc
-Bundle "Lokaltog/powerline"
-" Autocompletion"
+Bundle "bling/vim-airline"
+" Autocompletion
 Bundle "Valloric/YouCompleteMe"
-
+Bundle "moll/vim-node"
+Bundle 'myhere/vim-nodejs-complete'
+" Dash
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'rizzatti/dash.vim'
 " Vim-scripts repositories
 Bundle "OmniCppComplete"
 filetype plugin indent on
