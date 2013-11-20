@@ -11,3 +11,5 @@ let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
 
 " NERDTree
 let NERDTreeIgnore = ['\v.DS_Store|.sass-cache|.bundle|.git|.hg|.svn|node_modules|vendor|bower_components$']
+" YCM
+let g:ycm_extra_conf_globlist = ['~/Programming/*','!~/*']
