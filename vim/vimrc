@@ -1,6 +1,9 @@
 set nocompatible
 filetype off
 
+set exrc
+set secure
+
 source ~/.vim/rc/vundle.vim " Vundle bundler
 source ~/.vim/rc/visual.vim " Visual settings
 source ~/.vim/rc/remaps.vim " Keyboard remaps

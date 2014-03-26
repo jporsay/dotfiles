@@ -6,6 +6,8 @@ Bundle 'gmarik/vundle'
 " github bundles
 Bundle "tpope/vim-fugitive"
 Bundle "airblade/vim-gitgutter"
+Bundle "editorconfig/editorconfig-vim"
+
 " tpope magic
 Bundle "tpope/vim-surround"
 Bundle "tpope/vim-dispatch"
