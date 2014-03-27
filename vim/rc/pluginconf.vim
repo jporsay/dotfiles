@@ -18,6 +18,11 @@ let g:airline_symbols.branch = '⎇'
 
 " CtrlP
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
+let g:ctrlp_max_files = 0
+let g:ctrlp_max_depth = 40
+
+" Syntastic
+let g:syntastic_check_on_open = 1
 
 " NERDTree
 let NERDTreeIgnore = ['\v.DS_Store|.sass-cache|.bundle|.git|.hg|.svn|node_modules|vendor|bower_components$']
