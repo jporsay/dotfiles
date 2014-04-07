@@ -14,6 +14,9 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 
 " CtrlP
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
+let g:ctrlp_max_files = 0
+let g:ctrlp_max_depth = 40
+
 
 " NERDTree
 let NERDTreeIgnore = ['\v.DS_Store|.sass-cache|.bundle|.git|.hg|.svn|node_modules|vendor|bower_components$']
