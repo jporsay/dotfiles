@@ -6,3 +6,4 @@ source ~/.vim/rc/visual.vim " Visual settings
 source ~/.vim/rc/remaps.vim " Keyboard remaps
 source ~/.vim/rc/pluginconf.vim " Plugin config
 source ~/.vim/rc/misc.vim " Misc configs
+let g:syntastic_php_checkers = ['php']
