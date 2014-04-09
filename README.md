@@ -5,3 +5,5 @@ Custom configuration files for:
 * xmonad
 * vim
 * tmux
+* zsh
+
