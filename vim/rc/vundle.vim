@@ -26,12 +26,11 @@ Bundle "scrooloose/syntastic"
 " Misc
 Bundle "bling/vim-airline"
 " Autocompletion
-Bundle "Valloric/YouCompleteMe"
-Bundle "moll/vim-node"
-Bundle 'myhere/vim-nodejs-complete'
+" Bundle "Valloric/YouCompleteMe"
+" Bundle "moll/vim-node"
+" Bundle 'myhere/vim-nodejs-complete'
+" Bundle "OmniCppComplete"
 " Dash
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
-" Vim-scripts repositories
-Bundle "OmniCppComplete"
 filetype plugin indent on
