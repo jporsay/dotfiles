@@ -2,4 +2,4 @@
 set backupdir=~/.vim/backup
 set directory=~/.vim/temp
 
-set viminfo=
+set viminfo='50,:0,n~/.vim/viminfo
