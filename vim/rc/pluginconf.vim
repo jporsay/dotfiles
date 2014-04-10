@@ -31,6 +31,7 @@ let g:ctrlp_max_depth = 40
 
 " Syntastic
 let g:syntastic_check_on_open = 1
+let g:syntastic_php_checkers = ['php']
 
 " NERDTree
 let NERDTreeIgnore = ['\v.DS_Store|.sass-cache|.bundle|.git|.hg|.svn|node_modules|vendor|bower_components$']
