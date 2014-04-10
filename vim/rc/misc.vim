@@ -2,4 +2,4 @@
 set backupdir=~/.vim/backup
 set directory=~/.vim/temp
 
-let g:EclimCompletionMethod = 'omnifunc'
+set viminfo=
