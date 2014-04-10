@@ -17,7 +17,7 @@ noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
 " CtrlP
-nnoremap <C-b> :CtrlPBuffer<CR>
+nnoremap <Leader>b :CtrlPBuffer<CR>
 " Numbers plugin
 nnoremap <F3> :NumbersToggle<CR>
 nnoremap <F5> :NumbersOnOff<CR>
