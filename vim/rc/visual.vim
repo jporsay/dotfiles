@@ -23,3 +23,7 @@ if has('gui_running')
     set guioptions-=r
     set guioptions-=R
 endif
+
+" Twig specific filetype detection
+au BufRead,BufNewFile *.page set filetype=twig
+au BufRead,BufNewFile *.tpt set filetype=twig
