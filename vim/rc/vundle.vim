@@ -7,7 +7,8 @@ Bundle 'gmarik/vundle'
 Bundle "tpope/vim-fugitive"
 Bundle "airblade/vim-gitgutter"
 Bundle "editorconfig/editorconfig-vim"
-
+" Colors
+Bundle "altercation/vim-colors-solarized"
 " tpope magic
 Bundle "tpope/vim-surround"
 Bundle "tpope/vim-dispatch"

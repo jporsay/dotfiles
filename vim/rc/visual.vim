@@ -2,7 +2,13 @@ set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 set expandtab
-color distinguished
+set background=dark
+if &t_Co == 256
+    color distinguished
+else
+    let g:solarized_termcolors=16
+    color solarized
+endif
 set cursorline
 set number
 set ignorecase                  " ignore case
