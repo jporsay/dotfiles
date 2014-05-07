@@ -27,6 +27,7 @@ Bundle "evidens/vim-twig"
 Bundle "scrooloose/syntastic"
 " Misc
 Bundle "bling/vim-airline"
+Bundle "davidoc/taskpaper.vim"
 " Autocompletion
 " Bundle "Valloric/YouCompleteMe"
 " Bundle "moll/vim-node"
