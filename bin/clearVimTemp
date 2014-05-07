@@ -1,4 +1,4 @@
 #!/bin/sh
 
-rm -r ~/.vim/{temp/*,backup/*}
+rm ~/.vim/temp/* ~/.vim/backup/*
 
