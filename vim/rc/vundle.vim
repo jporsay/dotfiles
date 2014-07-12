@@ -28,6 +28,8 @@ Bundle "scrooloose/syntastic"
 " Misc
 Bundle "bling/vim-airline"
 Bundle "davidoc/taskpaper.vim"
+Bundle "junegunn/goyo.vim"
+Bundle "cwoac/nvim"
 " Autocompletion
 " Bundle "Valloric/YouCompleteMe"
 " Bundle "moll/vim-node"
