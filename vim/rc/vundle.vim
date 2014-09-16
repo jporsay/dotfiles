@@ -28,7 +28,9 @@ Bundle "scrooloose/syntastic"
 " Misc
 Bundle "bling/vim-airline"
 Bundle "davidoc/taskpaper.vim"
-Bundle "junegunn/goyo.vim"
+Bundle "ag.vim"
+" This plugin is for distraction free writing. I never got to use it.
+"Bundle "junegunn/goyo.vim"
 Bundle "cwoac/nvim"
 " Autocompletion
 " Bundle "Valloric/YouCompleteMe"
