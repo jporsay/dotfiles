@@ -4,6 +4,8 @@ filetype off
 set exrc
 set secure
 
+scriptencoding utf-8
+set encoding=utf-8
 source ~/.vim/rc/vundle.vim " Vundle bundler
 source ~/.vim/rc/visual.vim " Visual settings
 source ~/.vim/rc/remaps.vim " Keyboard remaps
