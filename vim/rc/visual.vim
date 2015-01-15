@@ -22,6 +22,8 @@ set listchars=tab:>·,trail:·    " but only show tabs and trailing whitespace
 set shortmess=atI               " shorten messages and don't show intro
 set showmatch                   " show matching brackets
 set showcmd                     " show the command I'm writing
+set splitbelow                  " make new split appear below instead of above
+set splitright                  " make new vsplit appear to the right instead of on the left
 if has('gui_running')
     set guifont=Source\ Code\ Pro\ for\ Powerline
     set guioptions-=l
