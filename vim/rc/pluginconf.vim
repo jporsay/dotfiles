@@ -30,8 +30,14 @@ let g:ctrlp_max_files = 0
 let g:ctrlp_max_depth = 40
 
 " Syntastic
-let g:syntastic_check_on_open = 1
-let g:syntastic_php_checkers = ['php']
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
 
 " NERDTree
 let NERDTreeIgnore = ['\v.DS_Store|.sass-cache|.bundle|.git|.hg|.svn|node_modules|vendor|bower_components$']
