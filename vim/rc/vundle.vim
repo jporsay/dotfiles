@@ -23,7 +23,7 @@ Bundle "majutsushi/tagbar"
 Bundle "scrooloose/nerdcommenter"
 " Markup
 Bundle "nono/vim-handlebars"
-Bundle "evidens/vim-twig"
+"Bundle "evidens/vim-twig"
 Bundle "scrooloose/syntastic"
 " Misc
 Bundle "bling/vim-airline"
