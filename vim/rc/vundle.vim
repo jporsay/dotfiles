@@ -29,6 +29,8 @@ Bundle "scrooloose/syntastic"
 Bundle "bling/vim-airline"
 Bundle "davidoc/taskpaper.vim"
 Bundle "ag.vim"
+" Productivity
+Bundle "jceb/vim-orgmode"
 " This plugin is for distraction free writing. I never got to use it.
 "Bundle "junegunn/goyo.vim"
 Bundle "cwoac/nvim"
