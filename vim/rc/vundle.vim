@@ -27,6 +27,7 @@ Bundle "nono/vim-handlebars"
 Bundle "scrooloose/syntastic"
 " Misc
 Bundle "bling/vim-airline"
+Bundle 'vim-airline/vim-airline-themes'
 Bundle "davidoc/taskpaper.vim"
 Bundle "ag.vim"
 " Productivity
