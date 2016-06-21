@@ -20,6 +20,9 @@ zplug load --verbose
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-eval "$(direnv hook zsh)"
+
+if type direnv > /dev/null 2>&1; then
+  eval "$(direnv hook zsh)"
+fi
 
 [[ -a ~/.zshrc_local ]] && source ~/.zshrc_local
