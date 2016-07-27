@@ -1,4 +1,4 @@
 #!/bin/sh
 
-curl -sL get.zplug.sh | zsh
+curl -sL zplug.sh/installer | zsh
 zplug update --self
