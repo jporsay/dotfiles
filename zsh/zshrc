@@ -5,9 +5,7 @@ zplug "supercrabtree/k"
 zplug "chrissicool/zsh-256color"
 zplug "zsh-users/zsh-completions"
 zplug "plugins/z", from:oh-my-zsh
-zplug "plugins/git", from:oh-my-zsh, if:"which git", nice:10
 zplug "themes/bureau", from:oh-my-zsh
-zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
 zplug "lib/completion", from:oh-my-zsh
 zplug "lib/history", from:oh-my-zsh
 zplug "lib/directories", from:oh-my-zsh
@@ -15,6 +13,8 @@ zplug "lib/grep", from:oh-my-zsh
 zplug "lib/spectrum", from:oh-my-zsh
 zplug "lib/termsupport", from:oh-my-zsh
 zplug "lib/theme-and-appearance", from:oh-my-zsh
+zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
+zplug "plugins/git", from:oh-my-zsh, if:"which git", nice:10
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
