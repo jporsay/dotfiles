@@ -1,10 +1,12 @@
 source ~/.zplug/zplug
 
 zplug "b4b4r07/zplug"
+
 zplug "supercrabtree/k"
+zplug "plugins/z", from:oh-my-zsh
+# Colors
 zplug "chrissicool/zsh-256color"
 zplug "zsh-users/zsh-completions"
-zplug "plugins/z", from:oh-my-zsh
 zplug "themes/bureau", from:oh-my-zsh
 zplug "lib/completion", from:oh-my-zsh
 zplug "lib/history", from:oh-my-zsh
@@ -15,6 +17,7 @@ zplug "lib/termsupport", from:oh-my-zsh
 zplug "lib/theme-and-appearance", from:oh-my-zsh
 zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
 zplug "plugins/git", from:oh-my-zsh, if:"which git", nice:10
+zplug "horosgrisa/autoenv"
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -32,5 +35,10 @@ export LANG=en_US.UTF-8
 if type direnv > /dev/null 2>&1; then
   eval "$(direnv hook zsh)"
 fi
+
+function mkeo() {
+    echo "OLDPATH_AE=\$PATH\nexport PATH=\$PATH" > $1/.env
+    echo "export PATH=\$OLDPATH_AE" > $1/.out
+}
 
 [[ -a ~/.zshrc_local ]] && source ~/.zshrc_local
