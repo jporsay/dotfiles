@@ -18,6 +18,7 @@ zplug "lib/theme-and-appearance", from:oh-my-zsh
 zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
 zplug "plugins/git", from:oh-my-zsh, if:"which git", nice:10
 zplug "horosgrisa/autoenv"
+zplug "jhipster/jhipster-oh-my-zsh-plugin"
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
