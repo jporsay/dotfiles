@@ -31,6 +31,7 @@ Bundle 'vim-airline/vim-airline-themes'
 Bundle "davidoc/taskpaper.vim"
 Bundle "ag.vim"
 " Productivity
+Bundle "speeddating.vim"
 Bundle "jceb/vim-orgmode"
 " This plugin is for distraction free writing. I never got to use it.
 "Bundle "junegunn/goyo.vim"
