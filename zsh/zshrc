@@ -16,7 +16,7 @@ zplug "lib/spectrum", from:oh-my-zsh
 zplug "lib/termsupport", from:oh-my-zsh
 zplug "lib/theme-and-appearance", from:oh-my-zsh
 zplug "lib/clipboard", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
-zplug "plugins/git", from:oh-my-zsh, if:"which git", nice:10
+zplug "plugins/git", from:oh-my-zsh, if:"which git", defer:10
 zplug "horosgrisa/autoenv"
 zplug "jhipster/jhipster-oh-my-zsh-plugin"
 
