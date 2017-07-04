@@ -1,4 +1,4 @@
-source ~/.zplug/zplug
+source ~/.zplug/init.zsh
 
 zplug "b4b4r07/zplug"
 
@@ -7,7 +7,7 @@ zplug "plugins/z", from:oh-my-zsh
 # Colors
 zplug "chrissicool/zsh-256color"
 zplug "zsh-users/zsh-completions"
-zplug "themes/bureau", from:oh-my-zsh
+zplug "themes/af-magic", from:oh-my-zsh
 zplug "lib/completion", from:oh-my-zsh
 zplug "lib/history", from:oh-my-zsh
 zplug "lib/directories", from:oh-my-zsh
@@ -32,6 +32,7 @@ zplug load
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export EDITOR=vim
 
 if type direnv > /dev/null 2>&1; then
   eval "$(direnv hook zsh)"
@@ -43,3 +44,10 @@ function mkeo() {
 }
 
 [[ -a ~/.zshrc_local ]] && source ~/.zshrc_local
+
+# tabtab source for jhipster package
+# uninstall by removing these lines or running `tabtab uninstall jhipster`
+[[ -f /usr/local/lib/node_modules/generator-jhipster/node_modules/tabtab/.completions/jhipster.zsh ]] && . /usr/local/lib/node_modules/generator-jhipster/node_modules/tabtab/.completions/jhipster.zsh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
