@@ -7,6 +7,7 @@ zplug "supercrabtree/k"
 # Colors
 zplug "chrissicool/zsh-256color"
 zplug "zsh-users/zsh-completions"
+zplug "lib/functions", from:oh-my-zsh
 zplug "themes/af-magic", from:oh-my-zsh
 zplug "lib/completion", from:oh-my-zsh
 zplug "lib/history", from:oh-my-zsh
