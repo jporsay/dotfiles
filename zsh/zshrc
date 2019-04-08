@@ -39,16 +39,7 @@ if type direnv > /dev/null 2>&1; then
   eval "$(direnv hook zsh)"
 fi
 
-function mkeo() {
-    echo "OLDPATH_AE=\$PATH\nexport PATH=\$PATH" > $1/.env
-    echo "export PATH=\$OLDPATH_AE" > $1/.out
-}
-
 [[ -a ~/.zshrc_local ]] && source ~/.zshrc_local
-
-# tabtab source for jhipster package
-# uninstall by removing these lines or running `tabtab uninstall jhipster`
-[[ -f /usr/local/lib/node_modules/generator-jhipster/node_modules/tabtab/.completions/jhipster.zsh ]] && . /usr/local/lib/node_modules/generator-jhipster/node_modules/tabtab/.completions/jhipster.zsh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
@@ -59,3 +50,8 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/usr/local/opt/bison/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# Aliases
+
+alias cats='highlight -O ansi --force'
